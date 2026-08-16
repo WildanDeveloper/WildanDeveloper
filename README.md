@@ -99,13 +99,17 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=WildanDeveloper&show_icons=true&include_all_commits=true&count_private=true&theme=gruvbox&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&bg_color=0d1117&hide_border=true" alt="GitHub Stats" />
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=WildanDeveloper&layout=compact&langs_count=8&theme=gruvbox&title_color=FFD700&icon_color=FFD700&text_color=9f9f9f&bg_color=0d1117&hide_border=true" alt="Top Languages" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=WildanDeveloper&theme=nord_dark" alt="Profile Details" />
 
 <br><br>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=WildanDeveloper&theme=gruvbox&background=0d1117&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&hide_border=true" alt="GitHub Streak" />
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=WildanDeveloper&theme=nord_dark" alt="GitHub Stats" />
+
+<img height="180em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=WildanDeveloper&theme=nord_dark" alt="Top Languages" />
+
+<br><br>
+
+<img src="https://streak-stats.demolab.com/?user=WildanDeveloper&theme=gruvbox&background=0d1117&ring=FFD700&fire=FFD700&currStreakLabel=FFD700&sideLabels=FFD700&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
