@@ -37,7 +37,7 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 **Languages**
 
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,java,c,cpp,csharp,go,rust,ruby,php,dart,kotlin,swift,bash,powershell,perl,lua,haskell,r,scala&perline=12" />
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,java,c,cpp,cs,go,rust,ruby,php,dart,kotlin,swift,bash,powershell,perl,lua,haskell,r,scala&perline=12" />
 
 <br>
 
@@ -55,7 +55,7 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 **Databases**
 
-<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,mariadb,oracle,elasticsearch,kafka,rabbitmq,prisma,hibernate&perline=10" />
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,elasticsearch,kafka,rabbitmq,prisma,hibernate&perline=10" />
 
 <br>
 
@@ -67,13 +67,13 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 **OS & Tools**
 
-<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,kali,fedora,arch,alpine,raspberrypi,git,github,vscode,vim,neovim,intellij,pycharm,postman,figma,blender,cmake,gradle,maven,pnpm,npm,yarn,bun&perline=12" />
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,kali,redhat,arch,raspberrypi,git,github,vscode,vim,neovim,idea,pycharm,phpstorm,webstorm,visualstudio,postman,figma,blender,cmake,gradle,maven,pnpm,npm,yarn,bun&perline=12" />
 
 <br>
 
 **Testing & AI/ML**
 
-<img src="https://skillicons.dev/icons?i=jest,cypress,playwright,selenium,puppeteer,vite,webpack,babel,eslint,tensorflow,pytorch,opencv,huggingface,scikitlearn&perline=10" />
+<img src="https://skillicons.dev/icons?i=jest,cypress,selenium,vite,webpack,babel,tensorflow,pytorch,opencv,scikitlearn&perline=10" />
 
 </div>
 
