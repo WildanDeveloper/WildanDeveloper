@@ -81,6 +81,7 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 <div align="center">
 
+<a href="https://github.com/WildanDeveloper"><img src="https://img.shields.io/badge/GitHub-WildanDeveloper-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
 <a href="mailto:wildandeveloper@gmail.com"><img src="https://img.shields.io/badge/Email-wildandeveloper%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 </div>
