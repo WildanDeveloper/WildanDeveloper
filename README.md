@@ -35,11 +35,45 @@ I'm **WildanDeveloper** — a passionate **Software Developer**, aspiring **Soft
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=python,javascript,typescript,nodejs,php,html,css,react,vue,flutter,java,c,cpp,go,ruby,bash&perline=8" />
+**Languages**
 
-<br><br>
+<img src="https://skillicons.dev/icons?i=python,javascript,typescript,html,css,java,c,cpp,csharp,go,rust,ruby,php,dart,kotlin,swift,bash,powershell,perl,lua,haskell,r,scala&perline=12" />
 
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,linux,nginx,mysql,postgres,mongodb,redis,git,github,grafana,prometheus&perline=6" />
+<br>
+
+**Frontend**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,nuxtjs,angular,svelte,tailwind,bootstrap,jquery,redux,materialui,vuetify,threejs,astro,solidjs&perline=10" />
+
+<br>
+
+**Backend**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,nestjs,django,flask,fastapi,laravel,symfony,rails,graphql,wordpress,dotnet&perline=10" />
+
+<br>
+
+**Databases**
+
+<img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,mariadb,oracle,elasticsearch,kafka,rabbitmq,prisma,hibernate&perline=10" />
+
+<br>
+
+**DevOps & Cloud**
+
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,terraform,ansible,jenkins,githubactions,gitlab,aws,azure,gcp,vercel,netlify,heroku,nginx,grafana,prometheus&perline=10" />
+
+<br>
+
+**OS & Tools**
+
+<img src="https://skillicons.dev/icons?i=linux,ubuntu,debian,kali,fedora,arch,alpine,raspberrypi,git,github,vscode,vim,neovim,intellij,pycharm,postman,figma,blender,cmake,gradle,maven,pnpm,npm,yarn,bun&perline=12" />
+
+<br>
+
+**Testing & AI/ML**
+
+<img src="https://skillicons.dev/icons?i=jest,cypress,playwright,selenium,puppeteer,vite,webpack,babel,eslint,tensorflow,pytorch,opencv,huggingface,scikitlearn&perline=10" />
 
 </div>
 
