@@ -1,44 +1,56 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=900&color=FFD700&center=true&vCenter=true&width=720&lines=Systems+Programmer;Security+Researcher;Game+Server+Engineer;Building+Tools+That+Actually+Run" alt="Typing SVG" />
+# WildanDeveloper
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=FFD700&center=true&vCenter=true&width=760&lines=Systems+Programmer+%7C+Rust+%26+C%2B%2B;Infrastructure+Engineer+%7C+Docker+%26+K8s;Security+Researcher+%7C+Offensive+Tooling;Game+Server+Engineer+%7C+ENet+%26+MariaDB" alt="Typing SVG" />
 
 [![Profile views](https://komarev.com/ghpvc/?username=WildanDeveloper&label=Views&color=FFD700&style=for-the-badge)](https://github.com/WildanDeveloper)
 [![Followers](https://img.shields.io/github/followers/WildanDeveloper?color=FFD700&style=for-the-badge&label=Followers)](https://github.com/WildanDeveloper?tab=followers)
+[![Repos](https://img.shields.io/github/repos/WildanDeveloper?color=FFD700&style=for-the-badge&label=Repos)](https://github.com/WildanDeveloper?tab=repositories)
 [![Since](https://img.shields.io/badge/since-Jun%202025-FFD700?style=for-the-badge)](https://github.com/WildanDeveloper)
 
 </div>
 
 ---
 
-## What I build
+## About
 
-I write software that has to survive contact with production: compilers and
+I build software that has to survive contact with production — **compilers and
 runtimes, network daemons, game servers, and the offensive tooling that breaks
-them.
+them.**
 
-The common thread is **systems work** — I care about what actually happens at
-the byte level, how a workload behaves under load, and where the trust boundary
+The common thread is systems work. I care about what actually happens at the
+byte level, how a workload behaves under load, and where the trust boundary
 really sits.
 
 - **Systems programming** — languages, runtimes, and daemons in Rust and C++
-- **Infrastructure** — self-hosted hosting stacks, container orchestration, node agents
+- **Infrastructure** — self-hosted hosting stacks, node agents, container orchestration
 - **Security research** — scanners, OSINT tooling, AI-assisted penetration testing
 - **Game servers** — Growtopia private servers, protocol-compatible implementations
+
+Most of my projects start as *"does this need to exist?"* and end as a
+single binary with no runtime dependencies.
 
 ---
 
 ## Featured work
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<a href="https://github.com/WildanDeveloper/wlel"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=wlel&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="wlel"></a>
+<a href="https://github.com/WildanDeveloper/roost"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=roost&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="roost"></a>
+<br>
+<a href="https://github.com/WildanDeveloper/WEngine"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=WEngine&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="WEngine"></a>
+<a href="https://github.com/WildanDeveloper/GTPS"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=GTPS&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="GTPS"></a>
+<br>
+<a href="https://github.com/WildanDeveloper/argus"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=argus&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="argus"></a>
+<a href="https://github.com/WildanDeveloper/webstats"><img src="https://github-readme-stats.vercel.app/api/pin/?username=WildanDeveloper&repo=webstats&theme=github_dark&show_owner=false&hide_border=true&border_color=FFD700" width="49%" alt="webstats"></a>
+
+<br>
 
 ### 🦀 wlel
 
-**An arena-first systems programming language.**
-
-Compiles to native code. Zero leaks by construction — every allocation inside
-an `arena` block is an O(1) pointer bump reclaimed at block exit.
+**An arena-first systems programming language.** Compiles to native code.
+Zero leaks by construction — every allocation inside an `arena` block is an
+O(1) pointer bump, reclaimed when the block exits.
 
 ```wl
 arena(1 << 20) {
@@ -46,119 +58,55 @@ arena(1 << 20) {
 }
 ```
 
-`Rust` · has CI, fuzz targets, and a test suite
-
-[Repository →](https://github.com/WildanDeveloper/wlel)
-
-</td>
-<td width="50%" valign="top">
+`Rust` · CI, fuzz targets, and a test suite
 
 ### 🦅 roost
 
 **A drop-in replacement for the Pterodactyl Wings daemon, rewritten in Rust.**
-
 Any Pterodactyl-compatible panel manages containers on this node exactly as it
 would with the official daemon — no panel modifications required.
 
 `Rust` + tokio · MIT · 38/38 Wings API conformance tests passing
 
-[Repository →](https://github.com/WildanDeveloper/roost)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🧠 WEngine
 
-**A blazing-fast CPU-first AI inference engine.**
-
-`Rust` core with `C++` / AVX-512 acceleration.
-
-[Repository →](https://github.com/WildanDeveloper/WEngine)
-
-</td>
-<td width="50%" valign="top">
+**A blazing-fast CPU-first AI inference engine.** Rust core with C++ / AVX-512
+acceleration.
 
 ### 🎮 GTPS
 
-**A Growtopia private server in a single C++ binary.**
-
-ENet game server, HTTPS login service, and web account management in one
-process, backed by MariaDB. Login flow for modern clients (protocol 226,
-web-token based) with pending-auth resume bound to client IP.
+**A Growtopia private server in a single C++ binary.** ENet game server, HTTPS
+login service, and web account management in one process, backed by MariaDB.
+Login flow for modern clients (protocol 226, web-token based) with pending-auth
+resume bound to client IP.
 
 `C++` · `ENet` · `MariaDB`
 
-[Repository →](https://github.com/WildanDeveloper/GTPS)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
 ### 🔭 argus
 
-**A modular, concurrent, evidence-first OSINT framework.**
-
-Every finding is traceable back to its source — evidence-first, not
-guess-first.
-
-`Go`
-
-[Repository →](https://github.com/WildanDeveloper/argus)
-
-</td>
-<td width="50%" valign="top">
-
-### 🤖 penai
-
-**AI-assisted penetration testing.**
-
-A TypeScript core paired with a Go Bubble Text interface for interactive runs.
-
-`TypeScript` · `Go`
-
-[Repository →](https://github.com/WildanDeveloper/penai)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+**A modular, concurrent, evidence-first OSINT framework.** Every finding stays
+traceable back to its source — evidence-first, not guess-first. `Go`
 
 ### 📊 webstats
 
-**Open-source web analytics that respects the 5kb budget.**
+**Open-source web analytics that respects the 5kb budget.** A sub-5kb vanilla JS
+tracker, SPA-aware down to `hashchange`. Go (Fiber + PostgreSQL) backend, Next.js
+dashboard, realtime over SSE. Privacy-first: salted IP hashing, retention
+windows, visitor opt-out. `Go` · `PostgreSQL` · `Next.js`
 
-A sub-5kb vanilla JS tracker, SPA-aware down to `hashchange`. Go (Fiber +
-PostgreSQL) backend, Next.js dashboard, realtime over SSE. Privacy-first:
-salted IP hashing, retention windows, visitor opt-out.
+### Other work
 
-`Go` · `PostgreSQL` · `Next.js`
-
-[Repository →](https://github.com/WildanDeveloper/webstats)
-
-</td>
-<td width="50%" valign="top">
-
-### 📱 WhatsApp-Number-Checker
-
-**A Telegram bot that validates numbers against WhatsApp.**
-
-Baileys-based, with pairing codes instead of QR scanning, bulk `.txt` upload,
-and per-user isolated sessions.
-
-`JavaScript` · `Baileys` · `PM2`
-
-[Repository →](https://github.com/WildanDeveloper/WhatsApp-Number-Checker)
-
-</td>
-</tr>
-</table>
+| Project | What it is | Stack |
+|---|---|---|
+| [penai](https://github.com/WildanDeveloper/penai) | AI-assisted penetration testing | `TypeScript` · `Go` |
+| [WhatsApp-Number-Checker](https://github.com/WildanDeveloper/WhatsApp-Number-Checker) | Telegram bot validating numbers via WhatsApp | `JavaScript` · `Baileys` |
+| [sxel](https://github.com/WildanDeveloper/sxel) | Web vulnerability scanner, 40+ modules, YAML rule DSL | `Go` |
+| [CVE-2026-58231](https://github.com/WildanDeveloper/CVE-2026-58231) | Detection & precondition verification for the CVE | `Python` |
+| [riak](https://github.com/WildanDeveloper/riak) | Experimental custom RIAK cryptography prototype | `Rust` |
 
 ---
 
-## Tooling
+## Stack
 
 <div align="center">
 
@@ -170,19 +118,19 @@ and per-user isolated sessions.
 
 **Backend & Systems**
 
-<img src="https://skillicons.dev/icons?i=go,rust,nodejs,laravel,fastapi,express,nginx,docker,kubernetes&perline=9" />
+<img src="https://skillicons.dev/icons?i=go,rust,nodejs,laravel,fastapi,nginx,docker,kubernetes,postman&perline=9" />
 
 <br>
 
 **Frontend**
 
-<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,typescript,javascript,astro&perline=6" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,tailwind,typescript,javascript&perline=5" />
 
 <br>
 
 **Data**
 
-<img src="https://skillicons.dev/icons?i=postgres,mysql,mariadb,redis,sqlite,clickhouse&perline=6" />
+<img src="https://skillicons.dev/icons?i=postgres,mysql,mariadb,redis,sqlite&perline=5" />
 
 <br>
 
@@ -191,16 +139,6 @@ and per-user isolated sessions.
 <img src="https://skillicons.dev/icons?i=linux,kalilinux,burpsuite,metasploit,nmap,wireshark,git,githubactions&perline=8" />
 
 </div>
-
----
-
-## Security work
-
-- **CVE-2026-58231** — detection and precondition-verification tooling
-  ([repo](https://github.com/WildanDeveloper/CVE-2026-58231))
-- **sxel** — high-performance web vulnerability scanner, 40+ attack modules with
-  a YAML rule DSL (contributed to an existing fork)
-- **riak** — experimental custom RIAK cryptography research prototype
 
 ---
 
