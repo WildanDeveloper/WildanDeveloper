@@ -1,7 +1,5 @@
 <div align="center">
 
-# WildanDeveloper
-
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=1000&color=FFD700&center=true&vCenter=true&width=760&lines=Systems+Programmer+%7C+Rust+%26+C%2B%2B;Infrastructure+Engineer+%7C+Docker+%26+K8s;Security+Researcher+%7C+Offensive+Tooling;Game+Server+Engineer+%7C+ENet+%26+MariaDB" alt="Typing SVG" />
 
 [![Profile views](https://komarev.com/ghpvc/?username=WildanDeveloper&label=Views&color=FFD700&style=for-the-badge)](https://github.com/WildanDeveloper)
